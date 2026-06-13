@@ -36,3 +36,4 @@ When loading this data into pandas/Python pipelines, resolve the following struc
 1. **Leading Whitespaces in Headers:** Except for `duration`, almost every feature name contains a leading blank space (e.g., `" protocol_type"`, `" service"`). Fix this immediately post-load:
    ```python
    df.columns = df.columns.str.strip()
+IMPORTANT : THE FOLDER IS IN ZIP FILE TO VIEW IT COMPLITELY DOWNLOAD IT FIRST
